@@ -30,10 +30,10 @@
     <ClCompile Include="penalties.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="primalityFermat.cpp">
+    <ClCompile Include="divBinary.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
-    <ClCompile Include="divBinary.cpp">
+    <ClCompile Include="squareModuloPCongruent.cpp">
       <Filter>Archivos de origen</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,10 +53,10 @@
     <ClInclude Include="penalties.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="primalityFermat.h">
+    <ClInclude Include="divBinary.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
-    <ClInclude Include="divBinary.h">
+    <ClInclude Include="squareModuloPCongruent.h">
       <Filter>Archivos de encabezado</Filter>
     </ClInclude>
   </ItemGroup>

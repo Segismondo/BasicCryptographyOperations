@@ -1,6 +1,8 @@
 #include "inverse.h"
 #include <numeric>
 
+//EXERCISE 0: Finding an inverse modulo N
+
 void EE(int a, int b, int& x, int& y) {
     if (a % b == 0)
     {
