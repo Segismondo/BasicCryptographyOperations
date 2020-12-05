@@ -1,3 +1,6 @@
 #pragma once
+#include "divBinary.h"
+#include <string>
 
-int fastpower(int x, unsigned int y, int p);
+//EXERCISE 1: Fast power algorithm
+int fastpower(std::string a, std::string b, std::string c);

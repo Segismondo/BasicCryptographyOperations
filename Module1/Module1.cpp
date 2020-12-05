@@ -37,33 +37,31 @@ int main()
     divide(a, b);*/
 
 
-    /*std::cout << "-------------------------0.- INVERSE----------" << std::endl;
-    //TODO : CAMBIAR EL RESULTADO A BINARIO
-    //TODO : CAMBIAR EL INPUT A BINARIO Y CONVERTIRLO DENTRO PARA FACILITAR TEST
-    //TODO : incluir en output GDC
-    //TODO : si GDC es mayor que 1, que devuelva []
-    //int a = 126;  
-    //int n = 205; 
-    //std::cout << a << ", " << n << ", " << std::gcd(a, n) << ", " << inverse(a, n);*/
+    std::cout << "-------------------------0.- INVERSE----------" << std::endl;
+    std::cout << std::endl;
+    std::string a = "1111110";
+    std::string n = "11001101";
+    std::cout << a << ", " << n << ", ";
+    gcdo(a, n);
+    std::cout << ", ";
+    inverse(a, n);
 
 
     /*std::cout << "-------------------------1.- FAST POWER----------" << std::endl;
-    //TODO : CAMBIAR EL RESULTADO A BINARIO
-    //TODO : CAMBIAR EL INPUT A BINARIO Y CONVERTIRLO DENTRO PARA FACILITAR TEST
-    //int b = 740;
-    //int k = 452;
-    //int n = 972;
+    std::cout << std::endl;
+    std::string b = "1001101000";
+    std::string k = "1001101000";
+    std::string n = "1001101100";
      
-    //std::cout << b << ", " << k << ", " << n << ", " << fastpower(b, k, n);*/
-
-
+    std::cout << b << ", " << k << ", " << n << ", ";
+    fastpower(b, k, n); 
+    */
 
     /*std::cout << "-------------------------2.- SQUARE MODULO P----------" << std::endl;
-    //TODO : CAMBIAR EL RESULTADO A BINARIO
-    //TODO : CAMBIAR EL INPUT A BINARIO Y CONVERTIRLO DENTRO PARA FACILITAR TEST
-    /*
-    int p = 1709;
-    int m = 1315; 
+   
+    std::cout << std::endl;
+    std::string p = "1010101111101";
+    std::string m = "1000011111110";
 
     if (squareRootExists(p, m)) {
         std::cout << p << ", " << m << ", " << "yes";
@@ -72,14 +70,16 @@ int main()
         std::cout << p << ", " << m << ", " << "no";
     }
     */
+    
 
-    /*std::cout << "-------------------------3.- SQUARE MODULO P congruent to 3 modulo 4----------" << std::endl;*/
+    /*std::cout << "-------------------------3.- SQUARE MODULO P congruent to 3 modulo 4----------" << std::endl;
 
+    std::cout << std::endl;
     std::string p = "11001111111";
     std::string m = "1001000101";
 
     std::cout << p << ", " << m << ", ";
-    squareRoot(p, m);
+    squareRoot(p, m);*/
     
     
     

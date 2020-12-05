@@ -1,5 +1,7 @@
 #include "squareModuloPCongruent.h"
 
+//EXERCISE 3: Algorithm which finds a square root of a square modulo P
+
 bool isCongruent(int p) {
     if (p % 4 == 3)
         return true;
