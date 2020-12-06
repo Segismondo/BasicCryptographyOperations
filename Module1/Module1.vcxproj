@@ -145,6 +145,7 @@
     <ClCompile Include="fastPower.cpp" />
     <ClCompile Include="inverse.cpp" />
     <ClCompile Include="Module1.cpp" />
+    <ClCompile Include="primalityFermat.cpp" />
     <ClCompile Include="squareModuloP.cpp" />
     <ClCompile Include="squareModuloPCongruent.cpp" />
   </ItemGroup>
@@ -153,6 +154,7 @@
     <ClInclude Include="penalties.h" />
     <ClInclude Include="fastPower.h" />
     <ClInclude Include="inverse.h" />
+    <ClInclude Include="primalityFermat.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="squareModuloP.h" />
     <ClInclude Include="squareModuloPCongruent.h" />

@@ -4,6 +4,7 @@
 #include "squareModuloP.h"
 #include "divBinary.h"
 #include "squareModuloPCongruent.h"
+#include "primalityFermat.h"
 #include <iostream>
 #include <climits>
 #include <stdio.h>
@@ -37,7 +38,7 @@ int main()
     divide(a, b);*/
 
 
-    std::cout << "-------------------------0.- INVERSE----------" << std::endl;
+    /*std::cout << "-------------------------0.- INVERSE----------" << std::endl;
     std::cout << std::endl;
     std::string a = "1111110";
     std::string n = "11001101";
@@ -45,7 +46,7 @@ int main()
     gcdo(a, n);
     std::cout << ", ";
     inverse(a, n);
-
+    */
 
     /*std::cout << "-------------------------1.- FAST POWER----------" << std::endl;
     std::cout << std::endl;
@@ -82,8 +83,18 @@ int main()
     squareRoot(p, m);*/
     
     
-    
-
+    /*std::cout << "-------------------------4.-Algorithm which checks the primality using Fermat's test----------" << std::endl;
+    int iteration = 1000;
+    ll num = 9923888;
+  
+    if (Fermat(num, iteration)) {
+        std::cout << num << " no " << std::endl;
+    }
+    else {
+        std::cout << num << " yes" << std::endl;
+    }
+    */
+    return 0;
 
     
 
